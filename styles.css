@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;800&display=swap');
+
+:root{
+    --primary-color:#FCA5A5;
+    --secondary-color: #FEF2F2;
+    --highlight: #EF4444;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300px;
+    background-color: var(--secondary-color);
+}
+
+html{
+    font-size: 62.5%;
+}
+
+
+.container{
+    width: 100vw;
+    min-height: 100vh;   
+    display: grid;
+    place-items: center;
+}
+
+.inner-div{
+    border: 2px solid var(--primary-color);
+    padding: 6rem 15rem;
+    background-color: var(--primary-color   );
+    border-radius: 2rem;
+    box-shadow: 0rem 1rem 1rem -0.4rem rgba(0,0,0,0.4);
+    color: #ffffff;
+    padding-top: 15rem;
+}
+
+.btn-show{
+    padding: 1rem 3rem;
+    border-radius: 2rem;
+    color:var(--primary-color);
+    margin: 1.5rem 22rem;
+    background-color: var(--secondary-color);
+    font-weight: bold;
+    font-size: 1.8rem;
+    cursor: pointer;
+    text-decoration: none;
+    border-style: none;
+   
+}   
+
+.quotes-box{
+    margin: 0;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+.quotes{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    text-align: center  ;
+    font-weight: bold;
+    
+}
+
+.highlight{
+    color: var(--highlight);
+}
+
+#author{
+    font-size: 2rem;
+    font-style: italic;
+}
+
